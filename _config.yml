@@ -23,7 +23,7 @@ favicon: /public/img/balloon.png
 # google analytics 设置
 
 # disqus 设置
-comments :
+comments: 
   provider: uyan
 
 # 主题设置，自动激活某个标签
@@ -34,7 +34,7 @@ cates:
   - Ceph
 
 # 中文本地化
-locals:
+locals: 
   tags: 标签
   about: 关于
   newest: 最新文章
