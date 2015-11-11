@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>扁舟子的博客</title>
+    <link>http://clivexc.github.io/Blog</link>
+    <description>My personal blog</description>
+    
+      <item>
+        <title>Jekyll搭建总结</title>
+        <link>http://clivexc.github.io/Blog/2015/11/07/jekll-set-up.html</link>
+        <guid isPermaLink="true">http://clivexc.github.io/Blog/2015/11/07/jekll-set-up.html</guid>
+        <pubDate>Sat, 07 Nov 2015 00:00:00 +0800</pubDate>
+        <description>&lt;p&gt;WIN7系统下搭建了Jekyll环境，分享如下&lt;/p&gt;
+
+&lt;h2 id=&quot;rubyinstallerdevkit&quot;&gt;1.安装rubyinstaller和DevKit&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://rubyinstaller.org/downloads/&quot;&gt; ruby官网 &lt;/a&gt;上下载并安装，安装ruby时勾选环境变量选项。&lt;/p&gt;
+
+&lt;p&gt;在DevKit目录下执行ruby dk.rb init&lt;/p&gt;
+
+&lt;p&gt;然后在config.yml末尾增加一行 - C:\Ruby200-x64&lt;/p&gt;
+
+&lt;p&gt;然后执行:&lt;/p&gt;
+
+&lt;p&gt;ruby dk.rb review&lt;/p&gt;
+
+&lt;p&gt;ruby dk.rb install&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll&quot;&gt;2.安装jekyll&lt;/h2&gt;
+&lt;p&gt;打开DevKit目录中的msys.bat，然后执行gem install jekyll&lt;/p&gt;
+
+&lt;h2 id=&quot;pygments&quot;&gt;3.安装 Pygments&lt;/h2&gt;
+&lt;p&gt;Jekyll里默认的语法高亮插件是 Pygments，它需要安装 Python。&lt;/p&gt;
+
+&lt;h3 id=&quot;python34&quot;&gt;(1)安装Python(以3.4版本为例)&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.python.org/download/&quot;&gt; Python官网 &lt;/a&gt;上下载并安装&lt;/p&gt;
+
+&lt;p&gt;环境变量PATH末尾添加C:\Python34和C:\Python34\Scripts&lt;/p&gt;
+
+&lt;p&gt;python -v命令有显示则正常&lt;/p&gt;
+
+&lt;p&gt;easy_install –version有显示则正常&lt;/p&gt;
+
+&lt;h3 id=&quot;pygments-1&quot;&gt;(2)安装Pygments&lt;/h3&gt;
+
+&lt;p&gt;easy_install Pygments&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-1&quot;&gt;4.使用jekyll&lt;/h2&gt;
+&lt;p&gt;jekyll new myblog&lt;/p&gt;
+
+&lt;p&gt;cd myblog&lt;/p&gt;
+
+&lt;p&gt;将_config.yml文件highlighter的值设置为Pygments&lt;/p&gt;
+
+&lt;p&gt;执行jekyll serve&lt;/p&gt;
+
+&lt;p&gt;现在就可以访问 http://localhost:4000了&lt;/p&gt;
+
+</description>
+      </item>
+    
+  </channel>
+</rss>

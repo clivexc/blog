@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+<title>Jekyll搭建总结 | 扁舟子的博客</title>
+<meta name="author" content="Clive Xu">
+
+
+<link rel="shortcut icon" href="/public/img/balloon.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/public/css/bootstrap.css">
+<link rel="stylesheet" href="/public/css/font-awesome.css">
+<link rel="stylesheet" href="/public/js/prettify/prettify.css">
+<link rel="stylesheet" href="/public/css/base.css">
+<link href="/pages/atom.xml" rel="alternate" title="扁舟子的博客" type="application/atom+xml">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-lg-3 col-sm-13 col-xs-13 aside visible-md visible-lg">
+  <div class="row">
+    <div class="col-md-2 col-xs-2 aside1">
+      <br>
+      <a class="pjaxlink" href="/"><img src="/public/img/balloon.png" class="img-ronuded avatar" style="border-width:0px; border-color:#000"></a>
+      <br><br><br><br>
+      <ul class="nav nav-pills nav-stacked">
+             <!-- 技术、生活-->
+         <li><a href="#技术" data-toggle="tab">技术</a></li>
+        
+        <li><a href="#tags" data-toggle="tab">标签</a></li>  
+        <li><a class="pjaxlink" href="/pages/archive.html">归档</a></li>
+        <li><a class="pjaxlink" href="/pages/about/">关于</a></li>
+      </ul>
+      <div class="aside1_bottom">
+        <table class="table table-condensed">
+          <tr>
+            <td><a href="/pages/atom.xml" target="_blank"><i class="fa fa-rss fa-lg" style="color:#fff;"></i></a></td>
+            <td><a href="mailto:clive_xc@163.com"><i class="fa fa-envelope-o fa-lg" style="color:#fff;"></i></a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-10 col-xs-10 aside2">
+      <div class="row">
+        <div class="tab-content"> 
+           
+            <div class="tab-pane" id="技术">
+              <div class="list-group">
+                
+                  <a href="/2015/11/07/jekll-set-up.html" class="list-group-item-lay pjaxlink">Jekyll搭建总结</a>
+                
+              </div>
+            </div>
+                
+          <div class="tab-pane" id="tags">
+            <div class="panel-group" id="accordion">
+               
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#Jekyll">Jekyll</a>
+                      <span class="badge pull-right">1</span>
+                    </h4>
+                  </div>
+                  <div id="Jekyll" class="panel-collapse collapse">
+                    
+                      <a  href='/2015/11/07/jekll-set-up.html' class="list-group-item pjaxlink">
+                        Jekyll搭建总结
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="col-md-13 col-lg-13 col-sm-13 col-xs-13 aside3">
+        <div id="container">
+          <div id="pjax">
+            <div class="row">
+  <div class="col-md-13 aside3-title">
+    <br>
+    <h2 id="#identifier">Jekyll搭建总结</h2>
+    2015年11月07日
+  </div>
+  <div class="col-md-13 aside3-content">
+    <hr>
+    <div id="content">
+      <p>WIN7系统下搭建了Jekyll环境，分享如下</p>
+
+<h2 id="rubyinstallerdevkit">1.安装rubyinstaller和DevKit</h2>
+<p><a href="http://rubyinstaller.org/downloads/"> ruby官网 </a>上下载并安装，安装ruby时勾选环境变量选项。</p>
+
+<p>在DevKit目录下执行ruby dk.rb init</p>
+
+<p>然后在config.yml末尾增加一行 - C:\Ruby200-x64</p>
+
+<p>然后执行:</p>
+
+<p>ruby dk.rb review</p>
+
+<p>ruby dk.rb install</p>
+
+<h2 id="jekyll">2.安装jekyll</h2>
+<p>打开DevKit目录中的msys.bat，然后执行gem install jekyll</p>
+
+<h2 id="pygments">3.安装 Pygments</h2>
+<p>Jekyll里默认的语法高亮插件是 Pygments，它需要安装 Python。</p>
+
+<h3 id="python34">(1)安装Python(以3.4版本为例)</h3>
+<p><a href="http://www.python.org/download/"> Python官网 </a>上下载并安装</p>
+
+<p>环境变量PATH末尾添加C:\Python34和C:\Python34\Scripts</p>
+
+<p>python -v命令有显示则正常</p>
+
+<p>easy_install –version有显示则正常</p>
+
+<h3 id="pygments-1">(2)安装Pygments</h3>
+
+<p>easy_install Pygments</p>
+
+<h2 id="jekyll-1">4.使用jekyll</h2>
+<p>jekyll new myblog</p>
+
+<p>cd myblog</p>
+
+<p>将_config.yml文件highlighter的值设置为Pygments</p>
+
+<p>执行jekyll serve</p>
+
+<p>现在就可以访问 http://localhost:4000了</p>
+
+
+    </div>
+    <hr>
+  </div>
+  <!-- 目录 -->
+  <div id="content_table" style="position:fixed;right:20px;top:120px;display:none;">
+    <div class="panel panel-success">
+      <div class="panel-body" id="nav"></div>
+    </div>
+  </div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="position:fixed;right:15px;top:62px;">
+  <button id="content_btn" class="btn btn-primary" style="width:43px; height:34px;">
+    <i class="fa fa-lg fa-plus"></i>
+  </button>
+</div>
+<div style="position:fixed;right:15px;top:20px;">
+  <button id="nav_btn" class="btn btn-primary">
+    <i class="fa fa-lg fa-navicon"></i>
+  </button>
+</div>
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script type="text/javascript" src="/public/js/bootstrap.js"></script>
+<script src="/public/js/jquery.pjax.js"></script>
+<script src="/public/js/prettify/prettify.js"></script>
+<script src="/public/js/base.js"></script>
+<!--
+<script src="/public/js/jquery.scrollUp.js"></script>
+-->
+<script>
+    $('a[href="#技术"]').tab('show');
+</script>
+
+
+<!--button是右上方导航和显示目录的按钮-->
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '', '');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

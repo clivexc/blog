@@ -1,0 +1,14 @@
+
+  /pages/archive
+
+  /pages/atom.xml
+
+  /
+
+  /pages/about/
+
+  /sitemap.txt
+
+
+
+  /2015/11/07/jekll-set-up.html
