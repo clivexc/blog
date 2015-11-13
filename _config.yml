@@ -1,40 +1,40 @@
+highlighter: pygments
+github: [Repository metadata]
+safe: true
+lsi: false
+
 gems: [jekyll-paginate]
 permalink: /:year/:month/:day/:title.html
 paginate: 10
-markdown: kramdown
+encoding: utf-8
+markdown: rdiscount
 
-# 作者信息
+# author
 author: 
   name: Clive Xu
-  email: clive_xc@163.com
-  link: http://clivexc.github.io/Blog
-  weibo: http://weibo.com/clivexc
-  github: https://github.com/clivexc
+  email: "clive_xc@163.com"
+  link: "http://clivexc.github.io/Blog"
+  weibo: "http://weibo.com/clivexc"
+  github: "https://github.com/clivexc"
 
-# 站点信息
-title: 扁舟子的博客
+# site info
+title: Clive's blog
 description: My personal blog
-url: http://clivexc.github.io/Blog
+url: "http://clivexc.github.io/Blog"
 rss_url: /pages/atom.xml
 
-# gavatar头像及Favicon
+# gavatar
 gavatar: /public/img/balloon.png
 favicon: /public/img/balloon.png
 
-# google analytics 设置
-
-# disqus 设置
 comments: 
   provider: uyan
 
-# 主题设置，自动激活某个标签
 active: 技术
 
-# 首页除了最新文章外显示分类
 cates: 
   - Ceph
 
-# 中文本地化
 locals: 
   tags: 标签
   about: 关于
