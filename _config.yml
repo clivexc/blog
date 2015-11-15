@@ -30,13 +30,13 @@ favicon: /public/img/balloon.png
 comments: 
   provider: uyan
 
-active: ¼¼Êõ
+active: æŠ€æœ¯
 
 cates: 
   - Ceph
 
 locals: 
-  tags: ±êÇ©
-  about: ¹ØÓÚ
-  newest: ×îĞÂÎÄÕÂ
-  archive: ¹éµµ
+  tags: æ ‡ç­¾
+  about: å…³äº
+  newest: æœ€æ–°æ–‡ç« 
+  archive: å½’æ¡£
