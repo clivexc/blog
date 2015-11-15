@@ -13,7 +13,7 @@ markdown: kramdown
 author: 
   name: Clive Xu
   email: "clive_xc@163.com"
-  link: "http://clivexc.github.io/Blog"
+  link: "http://clivexc.github.io/blog"
   weibo: "http://weibo.com/clivexc"
   github: "https://github.com/clivexc"
 
@@ -21,7 +21,7 @@ author:
 title: Clive's blog
 description: My personal blog
 url: 
-baseurl: /Blog
+baseurl: /blog
 rss_url: /pages/atom.xml
 
 # gavatar
