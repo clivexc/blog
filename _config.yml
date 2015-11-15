@@ -2,7 +2,6 @@ highlighter: pygments
 github: [Repository metadata]
 safe: true
 lsi: false
-source: Blog
 
 gems: [jekyll-paginate]
 permalink: /:year/:month/:day/:title.html
@@ -14,14 +13,15 @@ markdown: kramdown
 author: 
   name: Clive Xu
   email: "clive_xc@163.com"
-  link: "http://clivexc.github.io/Blog/"
+  link: "http://clivexc.github.io/Blog"
   weibo: "http://weibo.com/clivexc"
   github: "https://github.com/clivexc"
 
 # site info
 title: Clive's blog
 description: My personal blog
-url: "http://clivexc.github.io/Blog/"
+url: "http://clivexc.github.io/Blog"
+baseurl: /Blog
 rss_url: /pages/atom.xml
 
 # gavatar
