@@ -20,7 +20,7 @@ author:
 # site info
 title: Clive's blog
 description: My personal blog
-url: "http://clivexc.github.io/Blog"
+url: 
 baseurl: /Blog
 rss_url: /pages/atom.xml
 
