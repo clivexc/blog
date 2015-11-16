@@ -1,6 +1,6 @@
 highlighter: pygments
 github: [Repository metadata]
-safe: true
+safe: false
 lsi: false
 
 gems: [jekyll-paginate]
