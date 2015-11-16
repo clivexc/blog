@@ -20,7 +20,7 @@ body, html {
 .aside1 {
   /*background-color: #1f2c39;*/
   background-color: #1abc9c;
-  /*background-image: url(/public/img/bg_grid.jpg);*/
+  /*background-image: url({{ site.baseurl }}/public/img/bg_grid.jpg);*/
   height: 100%;
   padding-left: 0px;
   padding-right: 0px;
@@ -45,7 +45,7 @@ body, html {
 .aside1 > .nav-pills>li.active>a ,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus {
   color: #fff;
   /*background-color: #fafaf6;*/
-  /*background-image: url(/public/img/body_bg.jpg);*/
+  /*background-image: url({{ site.baseurl }}/public/img/body_bg.jpg);*/
   background-color: #303030;
 }
 
@@ -66,7 +66,7 @@ body, html {
 /* 中部目录栏 */
 .aside2 {
   /*background-color: #fafaf6;*/
-  /*background-image: url(/public/img/body_bg.jpg);*/
+  /*background-image: url({{ site.baseurl }}/public/img/body_bg.jpg);*/
 
   background-color: #303030;
   height: 100%;
@@ -83,11 +83,11 @@ body, html {
   background-color: #fff;
   overflow-x: hidden;
 
-  /*background-image: url(/public/img/bg_lines1.jpg);*/
+  /*background-image: url({{ site.baseurl }}/public/img/bg_lines1.jpg);*/
 }
 .aside3-title {
   background-color: #f5f5f5;
-  /*background-image: url(/public/img/bg_grid.jpg);*/
+  /*background-image: url({{ site.baseurl }}/public/img/bg_grid.jpg);*/
   border-bottom: 1px solid #f5f5f5;
   padding-left: 30px;
   padding-right: 30px;

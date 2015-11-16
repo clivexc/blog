@@ -22,11 +22,11 @@ title: Clive's blog
 description: My personal blog
 url: 
 baseurl: /blog
-rss_url: /pages/atom.xml
+rss_url: /blog/pages/atom.xml
 
 # gavatar
-gavatar: /public/img/balloon.png
-favicon: /public/img/balloon.png
+gavatar: /blog/public/img/balloon.png
+favicon: /blog/public/img/balloon.png
 
 comments: 
   provider: uyan
