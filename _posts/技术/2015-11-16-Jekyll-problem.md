@@ -26,9 +26,9 @@ Jekyll环境搭好后遇到的问题和解决方法，分享如下
 
 以我的第一篇文章为例，刚开始解析出来的链接是如下形式：http://clivexc.github.io/2015/11/07/Jekll-set-up.html_config.yml，缺少我的工程名blog。
 
-解决方法：设置baseurl为/blog，blog就是github中的工程名，相应的检查所有路径中是否包含{{site.baseurl}}。
+解决方法：设置baseurl为/blog，blog就是github中的工程名，相应的检查所有路径中是否包含site.baseurl。
 
-本地调试时改为jekyll serve --baseurl 
+本地调试时改为jekyll serve --baseurl，也就是把baseurl参数覆盖为空 
 
 看别人的资料后续改用域名后设置baseurl为／即可
 
