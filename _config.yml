@@ -21,12 +21,12 @@ author:
 title: Clive's blog
 description: My personal blog
 url: "http://clivexc.github.io"
-baseurl: /blog
-rss_url: /blog/pages/atom.xml
+baseurl: /
+rss_url: /pages/atom.xml
 
 # gavatar
-gavatar: /blog/public/img/balloon.png
-favicon: /blog/public/img/balloon.png
+gavatar: /public/img/balloon.png
+favicon: /public/img/balloon.png
 
 comments: 
   provider: uyan
