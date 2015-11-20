@@ -21,7 +21,7 @@ author:
 title: Clive's blog
 description: My personal blog
 url: "http://xucong.xyz"
-baseurl: 
+baseurl: /
 rss_url: /pages/atom.xml
 
 comments: 
