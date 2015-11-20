@@ -13,20 +13,16 @@ markdown: kramdown
 author: 
   name: Clive Xu
   email: "clive_xc@163.com"
-  link: "http://clivexc.github.io/blog"
+  link: "http://xucong.xyz"
   weibo: "http://weibo.com/clivexc"
   github: "https://github.com/clivexc"
 
 # site info
 title: Clive's blog
 description: My personal blog
-url: "http://clivexc.github.io"
-baseurl: /
+url: "http://xucong.xyz"
+baseurl: /blog
 rss_url: /pages/atom.xml
-
-# gavatar
-gavatar: /public/img/balloon.png
-favicon: /public/img/balloon.png
 
 comments: 
   provider: uyan

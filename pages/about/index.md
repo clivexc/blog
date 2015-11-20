@@ -15,3 +15,4 @@ titlename: 关于
 * 邮箱：[{{ site.author.email }}](mailto:{{ site.author.email }})
 * GitHub : [{{ site.author.github }}]({{ site.author.github }})
 
+{% include JB/comments %}

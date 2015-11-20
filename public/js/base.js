@@ -66,14 +66,11 @@ $(document).ready(function() {
     contentEffects();
   });
   $('body').on('click', '.show-commend', function(){
-    var ds_loaded = false;
-    window.disqus_shortname = $('.show-commend').attr('name');
-    $.ajax({
-      type: "GET",
-      url: "http://" + disqus_shortname + ".disqus.com/embed.js",
-      dataType: "script",
-      cache: true
-    });
+    var dsq = $('body').createElement('script'); 
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = 'http://v2.uyan.cc/code/uyan.js?uid=2069402';
+    $('body').appendChild(dsq);
   });
   contentEffects();
 });
