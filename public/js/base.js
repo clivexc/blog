@@ -13,6 +13,7 @@ function nav_click(is_show) {
     $('.aside3-content')
       .removeClass('col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2')
       .addClass('col-md-13');
+    {% include JB/comments %}
   } else {
     /* 隐藏左侧aside */
     $('.aside')
@@ -26,7 +27,7 @@ function nav_click(is_show) {
     $('.aside3-content')
       .removeClass('col-md-13')
       .addClass('col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2'); 
-  }  /*col-md-offset-1 col-lg-offset-2*/
+  }
 }
 /* 控制文章章节列表按钮 */
 function content_click(is_show){
@@ -66,11 +67,11 @@ $(document).ready(function() {
     contentEffects();
   });
   $('body').on('click', '.show-commend', function(){
-    var dsq = $('body').createElement('script'); 
+    var dsq = $("body").createElement('script'); 
     dsq.type = 'text/javascript';
     dsq.async = true;
     dsq.src = 'http://v2.uyan.cc/code/uyan.js?uid=2069402';
-    $('body').appendChild(dsq);
+    $("body").append(dsq);
   });
   contentEffects();
 });
