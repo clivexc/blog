@@ -13,7 +13,6 @@ function nav_click(is_show) {
     $('.aside3-content')
       .removeClass('col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2')
       .addClass('col-md-13');
-    {% include JB/comments %}
   } else {
     /* 隐藏左侧aside */
     $('.aside')
