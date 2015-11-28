@@ -2,7 +2,7 @@
 
 {% case site.comments.provider %}
 {% when "disqus" %}
-  {% include JB/comments-providers/disqus.html %}
+  {% include JB/comments-providers/disqus %}
 {% when "uyan" %}
   {% include JB/comments-providers/uyan %}
 {% endcase %}
