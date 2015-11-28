@@ -25,7 +25,10 @@ baseurl: /
 rss_url: /pages/atom.xml
 
 comments: 
-  provider: uyan
+  provider: disqus
+
+disqus:
+  shortname: clivexc
 
 active: 技术
 
