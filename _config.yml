@@ -32,6 +32,11 @@ disqus:
 
 active: 技术
 
+# google analytics
+ga:
+  id: UA-71763659-1 
+  url: xucong.xyz
+
 cates: 
   - Ceph
 
